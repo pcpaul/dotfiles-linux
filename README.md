@@ -2,7 +2,7 @@
 ### curl https://raw.githubusercontent.com/pcpaul/dotfiles-linux/master/README.md | sh
 
     cd ~
-    git clone https://github.com/pcpaul/dotfiles-linux
+    git clone https://github.com/pcpaul/dotfiles-linux .dotfiles-linux
     ln -s ~/.dotfiles-linux/vim ~/.vim
     ln -s ~/.dotfiles-linux/vimrc ~/.vimrc
     ln -s ~/.dotfiles-linux/tmux.conf ~/.tmux.conf
