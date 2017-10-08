@@ -1,8 +1,7 @@
 ## Installation
 ### curl https://raw.githubusercontent.com/pcpaul/dotfiles-linux/master/README.md | sh
 
-    mkdir ~/.dotfiles-linux
-    cd ~/.dotfiles-linux
+    cd ~
     git clone https://github.com/pcpaul/dotfiles-linux
     ln -s ~/.dotfiles-linux/vim ~/.vim
     ln -s ~/.dotfiles-linux/vimrc ~/.vimrc
