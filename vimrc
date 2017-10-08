@@ -49,6 +49,12 @@ let g:airline_powerline_fonts = 1
 """"""""""""""""""""""""""""""
 let g:indentLine_enable = 1
 
+""""""""""""""""""""""""""""""
+" => vim-gitgutter
+""""""""""""""""""""""""""""""
+set updatetime=250
+GitGutterEnable
+GitGutterLineHighlightsEnable
 
 """"""""""""""""""""""""""""""
 " => Buffer
@@ -68,7 +74,7 @@ map <F3> :NERDTreeToggle<cr> :echo helpmenu<cr>
 nnoremap <F4> :bd!<cr> :echo helpmenu<cr>
 nnoremap <F5> <esc>:e 
 nnoremap <F6> :call ToggleSolarized()<cr> :echo helpmenu<cr>
-nnoremap <F7> :set invnumber<cr> :call ToggleList()<cr> :IndentLinesToggle <cr> :echo helpmenu<cr>
+nnoremap <F7> :set invnumber<cr> :call ToggleList()<cr> :IndentLinesToggle<cr> :GitGutterLineHighlightsToggle<cr> :GitGutterToggle<cr> :echo helpmenu<cr>
 nmap <F8> :TagbarToggle<cr> :echo helpmenu<cr>
 nnoremap <S-Q> <esc>:q!<cr> 
 
