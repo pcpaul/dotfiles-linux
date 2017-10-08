@@ -53,8 +53,7 @@ let g:indentLine_enable = 1
 " => vim-gitgutter
 """"""""""""""""""""""""""""""
 set updatetime=250
-GitGutterEnable
-GitGutterLineHighlightsEnable
+let g:gitgutter_highlight_lines = 1
 
 """"""""""""""""""""""""""""""
 " => Buffer
